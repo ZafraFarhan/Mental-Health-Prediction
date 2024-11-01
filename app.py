@@ -49,16 +49,6 @@ df = load_data()
 
 st.title("Mental Health Dashboard")
 
-# Instruction text
-st.markdown("""
-    Details based on the measures below:
-    - **1:** Never
-    - **2:** Always
-    - **3:** Often
-    - **4:** Rarely
-    - **5:** Sometimes
-    - **6:** Not at all
-    """)
 
 with st.sidebar:
     st.header("⚙️ Settings")
