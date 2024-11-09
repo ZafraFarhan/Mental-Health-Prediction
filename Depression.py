@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Set up the page config
-st.set_page_config(page_title="Bipolar Type-1", layout="wide")
+st.set_page_config(page_title="Depression", layout="wide")
 
 st.markdown("""
     <head>
