@@ -170,9 +170,18 @@ def run():
             st.write("Normal")
         elif prediction[0] == 'Bipolar Type-2':
             st.write("Bipolar Type-2")
+            st.markdown("""
+            [Click here for more information about Bipolar Type-2 Disorder](https://mental-health-prediction-bp1.streamlit.app/)
+            """)
         elif prediction[0] == 'Bipolar Type-1':
             st.write("Bipolar Type-1")
+            st.markdown("""
+            [Click here for more information about Bipolar Type-2 Disorder](https://mental-health-prediction-bp2.streamlit.app/)
+            """)
         else:
             st.write("Depression")
+            st.markdown("""
+            [Click here for more information about Bipolar Type-2 Disorder](https://mental-health-prediction-depression.streamlit.app/)
+            """)
             
 run()
